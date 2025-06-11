@@ -145,9 +145,9 @@
   <div class="container-fluid p-0" style="position: relative; height: 100vh;">
     <div class="carousel slide" id="carouselExampleAutoplaying" data-bs-ride="carousel"  style="height: 100vh;">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
       <div class="carousel-inner">
         {{-- 1st Carousel --}}
@@ -169,7 +169,7 @@
 
         {{-- 2nd Carousel --}}
         <div class="carousel-item " >
-          <img src="{{ asset('images/image2.jpg') }}" class="d-block w-100" alt="..." />
+          <img src="{{ asset('images/image9.jpg') }}" class="d-block w-100" alt="..." />
           <div class="dimmer"></div>
           <div class="content001">
             <div class="intro-container" data-aos="fade-up">
@@ -186,14 +186,14 @@
         </div>
 
       </div>
-        {{-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
-        </button> --}}
+        </button>
     </div>
   </div>
 
