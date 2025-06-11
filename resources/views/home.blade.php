@@ -117,6 +117,42 @@
     z-index: 2;
     }
 
+    /* Remove Bootstrap default outline */
+    /* Remove outline and shadow */
+    .custom-toggler:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    }
+
+    /* Common line style */
+    .toggler-line {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 6px auto;
+    transition: all 0.3s ease-in-out;
+    border-radius: 2px;
+    }
+
+    /* Transformations when active */
+    .custom-toggler.active .top-bar {
+    transform: rotate(45deg) translate(5px, 5px);
+    background-color: red;
+    }
+
+    .custom-toggler.active .middle-bar {
+    opacity: 0;
+    }
+
+    .custom-toggler.active .bottom-bar {
+    transform: rotate(-45deg) translate(5px, -5px);
+    background-color: red;
+    }
+
+
+
   </style>
 </head>
 <body>
@@ -126,9 +162,15 @@
       <a class="navbar-brand" href="/">
         <img src="{{ asset('images/logo2.png') }}" alt="logo" />
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="toggler-line top-bar"></span>
+        <span class="toggler-line middle-bar"></span>
+        <span class="toggler-line bottom-bar"></span>
+        </button>
+
+
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
@@ -214,6 +256,12 @@
   <!-- AOS Init -->
   <script>
     AOS.init();
+   document.addEventListener('DOMContentLoaded', function () {
+    const toggler = document.querySelector('.custom-toggler');
+    toggler.addEventListener('click', function () {
+      toggler.classList.toggle('active');
+    });
+  });
   </script>
 </body>
 </html>
