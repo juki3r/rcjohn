@@ -42,6 +42,14 @@
       height: 100vh;
       width: 100%;
     }
+    .carousel-indicators [data-bs-target] {
+        background-color: rgba(255, 255, 255, 0.5); /* default color */
+    }
+
+    .carousel-indicators .active {
+        background-color: red !important; /* red when active */
+    }
+
 
     .dimmer {
       position: absolute;
