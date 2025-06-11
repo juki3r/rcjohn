@@ -165,10 +165,10 @@
       <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
         aria-expanded="false" aria-label="Toggle navigation">
-        <span class="toggler-line top-bar"></span>
-        <span class="toggler-line middle-bar"></span>
-        <span class="toggler-line bottom-bar"></span>
-        </button>
+    <span class="toggler-line top-bar"></span>
+    <span class="toggler-line middle-bar"></span>
+    <span class="toggler-line bottom-bar"></span>
+    </button>
 
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
