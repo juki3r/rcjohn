@@ -135,9 +135,10 @@
 
   <!-- Intro Section -->
   <div class="container-fluid p-0" style="position: relative; height: 100vh;">
-    <div class="carousel slide" id="carouselExampleAutoplaying" data-bs-ride="carousel" style="height: 100vh;">
+    <div class="carousel slide" id="carouselExampleAutoplaying" data-bs-ride="carousel"  style="height: 100vh;">
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        {{-- 1st Carousel --}}
+        <div class="carousel-item active" >
           <img src="{{ asset('images/image.jpg') }}" class="d-block w-100" alt="..." />
           <div class="dimmer"></div>
           <div class="content001">
@@ -152,7 +153,33 @@
             </div>
           </div>
         </div>
+
+        {{-- 2nd Carousel --}}
+        <div class="carousel-item " >
+          <img src="{{ asset('images/image2.jpg') }}" class="d-block w-100" alt="..." />
+          <div class="dimmer"></div>
+          <div class="content001">
+            <div class="intro-container" data-aos="fade-up">
+              <p class="intro">
+                <strong>RC John</strong> is a dynamic and trusted company specializing in construction services, telecommunications solutions, and the supply of high-quality construction materials. With a commitment to excellence, innovation, and integrity, we bring together the strength of infrastructure development and the connectivity of modern telecom systems to deliver comprehensive solutions for today's growing industries.
+                <br /><br />
+                From residential and commercial building projects to telecom tower installations and network setups, RC John ensures precision, safety, and sustainability at every step. Our construction material division guarantees reliable access to premium-grade products, supporting contractors, developers, and individuals with the tools they need to build with confidence.
+                <br /><br />
+                Driven by a passion for progress and a reputation built on trust, RC John is your all-in-one partner for building the future — brick by brick, signal by signal.
+              </p>
+            </div>
+          </div>
+        </div>
+
       </div>
+        {{-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button> --}}
     </div>
   </div>
 
