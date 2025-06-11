@@ -98,7 +98,7 @@
 
     @media (max-width: 480px) {
       .intro {
-        font-size: 15px;
+        font-size: 12px;
       }
     }
   </style>
