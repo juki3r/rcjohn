@@ -138,7 +138,7 @@
     <div class="carousel slide" id="carouselExampleAutoplaying" data-bs-ride="carousel" style="height: 100vh;">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="{{ asset('images/image8.jpg') }}" class="d-block w-100" alt="..." />
+          <img src="{{ asset('images/image.jpg') }}" class="d-block w-100" alt="..." />
           <div class="dimmer"></div>
           <div class="content001">
             <div class="intro-container" data-aos="fade-up">
