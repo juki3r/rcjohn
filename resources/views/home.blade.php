@@ -110,7 +110,7 @@
         font-size: 12px;
       }
       .intro_header{
-        font-size: 14px;
+        font-size: 16px;
       }
     }
 
