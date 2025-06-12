@@ -234,6 +234,7 @@
                 <div class="dimmer"></div>
                 <div class="content001">
                 <div class="intro-container ps-lg-5" data-aos="fade-up">
+                  <h4 class="mb-4 intro_header">Reliable Partner</h4>  
                     <p class="intro">
                     <strong class="text-warning fw-bold">RC John</strong> is a trusted and leading service provider in the field of telecommunications infrastructure, serving Iloilo, Capiz, Antique, Aklan, Guimaras, Negros, and Cebu. We specialize in the deployment of telecom networks through expert services in cable laying, pole erection, NAP box activation, server installation, and tower erection.
                     <br /><br />
