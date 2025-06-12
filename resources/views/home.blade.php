@@ -252,6 +252,7 @@
                 <div class="dimmer"></div>
                 <div class="content001">
                 <div class="intro-container ps-lg-5" data-aos="fade-up">
+                  <h4 class="mb-4 intro_header">Quality Products & Services</h4>  
                   <p class="intro">
                       <strong class="text-warning fw-bold">RC John</strong> is a trusted and leading supplier of high-quality yet affordable construction materials across Iloilo, Capiz, Antique, Aklan, Guimaras, Negros, and Cebu. We specialize in a wide range of construction supplies including premium cement, durable hollow blocks, washed sand, gravel, steel bars, and other essential building materials.
                       <br /><br />
