@@ -110,7 +110,7 @@
         font-size: 12px;
       }
       .intro_header{
-        font-size: 18px;
+        font-size: 16px;
       }
     }
 
@@ -216,7 +216,7 @@
                 <div class="content001">
                   
                 <div class="intro-container ps-lg-5" data-aos="fade-up">
-                  <h4 class="mb-3 intro_header">Constructions & Telecommunications</h4>  
+                  <h4 class="mb-4 intro_header">Constructions & Telecommunications</h4>  
                     <p class="intro">
                     <strong class="text-warning fw-bold">RC John</strong> is a dynamic and trusted company specializing in construction services, telecommunications solutions, and the supply of high-quality construction materials. With a commitment to excellence, innovation, and integrity, we bring together the strength of infrastructure development and the connectivity of modern telecom systems to deliver comprehensive solutions for today's growing industries.
                     <br /><br />
