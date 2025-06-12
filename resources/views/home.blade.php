@@ -268,7 +268,7 @@
 
             <!-- 4th Slide -->
             <div class="carousel-item">
-                <img src="{{ asset('images/image11.jpg') }}" class="d-block w-100" alt="..." />
+                <img src="{{ asset('images/image7.jpg') }}" class="d-block w-100" alt="..." />
                 <div class="dimmer"></div>
                 <div class="content001">
                 <div class="intro-container ps-lg-5" data-aos="fade-up">
@@ -283,7 +283,7 @@
 
             <!-- 5th Slide -->
             <div class="carousel-item">
-                <img src="{{ asset('images/image11.jpg') }}" class="d-block w-100" alt="..." />
+                <img src="{{ asset('images/image8.jpg') }}" class="d-block w-100" alt="..." />
                 <div class="dimmer"></div>
                 <div class="content001">
                 <div class="intro-container ps-lg-5" data-aos="fade-up">
