@@ -200,6 +200,7 @@
             <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+             <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
 
             <!-- Carousel Inner -->
@@ -236,6 +237,23 @@
                     Backed by years of experience and a dedication to innovation, <strong class="text-warning fw-bold">RC John</strong> is your dependable partner in building the digital backbone of tomorrow—connecting islands, bridging gaps, and enabling progress across the Visayas.
                     </p>
                 </div>
+                </div>
+            </div>
+
+            <!-- 3rd Slide -->
+            <div class="carousel-item">
+                <img src="{{ asset('images/image11.jpg') }}" class="d-block w-100" alt="..." />
+                <div class="dimmer"></div>
+                <div class="content001">
+                <div class="intro-container ps-lg-5" data-aos="fade-up">
+                  <p class="intro">
+                      <strong class="text-warning fw-bold">RC John</strong> is a trusted and leading supplier of high-quality yet affordable construction materials across Iloilo, Capiz, Antique, Aklan, Guimaras, Negros, and Cebu. We specialize in a wide range of construction supplies including premium cement, durable hollow blocks, washed sand, gravel, steel bars, and other essential building materials.
+                      <br /><br />
+                      With a strong commitment to affordability, reliability, and product quality, <strong class="text-warning fw-bold">RC John</strong> partners with builders, contractors, and homeowners to deliver the materials needed to bring any construction project to life—whether it’s residential, commercial, or industrial.
+                      <br /><br />
+                      Backed by years of experience and a dedication to service excellence, <strong class="text-warning fw-bold">RC John</strong> is your dependable partner in building strong foundations—offering fast delivery, bulk pricing, and dependable support to help you build better, faster, and more affordably across the Visayas.
+                  </p>
+              </div>
                 </div>
             </div>
             </div>
