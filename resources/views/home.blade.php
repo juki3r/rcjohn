@@ -216,7 +216,7 @@
                 <div class="content001">
                   
                 <div class="intro-container ps-lg-5" data-aos="fade-up">
-                  <h4 class="mb-4 intro_header">Constructions & Telecommunications</h4>  
+                  <h4 class="mb-4 intro_header text-warning text-uppercase">Constructions & Telecommunications</h4>  
                     <p class="intro">
                     <strong class="text-warning fw-bold">RC John</strong> is a dynamic and trusted company specializing in construction services, telecommunications solutions, and the supply of high-quality construction materials. With a commitment to excellence, innovation, and integrity, we bring together the strength of infrastructure development and the connectivity of modern telecom systems to deliver comprehensive solutions for today's growing industries.
                     <br /><br />
@@ -234,7 +234,7 @@
                 <div class="dimmer"></div>
                 <div class="content001">
                 <div class="intro-container ps-lg-5" data-aos="fade-up">
-                  <h4 class="mb-4 intro_header">Reliable Partner</h4>  
+                  <h4 class="mb-4 intro_header text-warning text-uppercase">Reliable Partner</h4>  
                     <p class="intro">
                     <strong class="text-warning fw-bold">RC John</strong> is a trusted and leading service provider in the field of telecommunications infrastructure, serving Iloilo, Capiz, Antique, Aklan, Guimaras, Negros, and Cebu. We specialize in the deployment of telecom networks through expert services in cable laying, pole erection, NAP box activation, server installation, and tower erection.
                     <br /><br />
@@ -252,7 +252,7 @@
                 <div class="dimmer"></div>
                 <div class="content001">
                 <div class="intro-container ps-lg-5" data-aos="fade-up">
-                  <h4 class="mb-4 intro_header">Quality Products & Services</h4>  
+                  <h4 class="mb-4 intro_header text-warning text-uppercase">Quality Products & Services</h4>  
                   <p class="intro">
                       <strong class="text-warning fw-bold">RC John</strong> is a trusted and leading supplier of high-quality yet affordable construction materials across Iloilo, Capiz, Antique, Aklan, Guimaras, Negros, and Cebu. We specialize in a wide range of construction supplies including premium cement, durable hollow blocks, washed sand, gravel, steel bars, and other essential building materials.
                       <br /><br />
