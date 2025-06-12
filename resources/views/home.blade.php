@@ -204,6 +204,8 @@
             <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+             <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
+             <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4" aria-label="Slide 5"></button>
             </div>
 
             <!-- Carousel Inner -->
@@ -252,7 +254,7 @@
                 <div class="dimmer"></div>
                 <div class="content001">
                 <div class="intro-container ps-lg-5" data-aos="fade-up">
-                  <h4 class="mb-4 intro_header text-warning ">Quality Products & Services</h4>  
+                  <h4 class="mb-4 intro_header text-warning">Quality Products & Services</h4>  
                   <p class="intro">
                       <strong class="text-warning fw-bold">RC John</strong> is a trusted and leading supplier of high-quality yet affordable construction materials across Iloilo, Capiz, Antique, Aklan, Guimaras, Negros, and Cebu. We specialize in a wide range of construction supplies including premium cement, durable hollow blocks, washed sand, gravel, steel bars, and other essential building materials.
                       <br /><br />
@@ -263,6 +265,40 @@
               </div>
                 </div>
             </div>
+
+            <!-- 4th Slide -->
+            <div class="carousel-item">
+                <img src="{{ asset('images/image11.jpg') }}" class="d-block w-100" alt="..." />
+                <div class="dimmer"></div>
+                <div class="content001">
+                <div class="intro-container ps-lg-5" data-aos="fade-up">
+                  <h4 class="mb-4 intro_header text-warning">Our Mission</h4>  
+                <p class="intro">
+                  To supply top-grade yet cost-effective construction materials and deliver reliable telecommunications infrastructure services that support the growth and progress of local communities. We aim to empower every builder and network developer—big or small—with access to quality products, expert service, and the tools needed to build safely, sustainably, and successfully across both physical and digital landscapes.
+              </p>
+
+              </div>
+                </div>
+            </div>
+
+            <!-- 5th Slide -->
+            <div class="carousel-item">
+                <img src="{{ asset('images/image11.jpg') }}" class="d-block w-100" alt="..." />
+                <div class="dimmer"></div>
+                <div class="content001">
+                <div class="intro-container ps-lg-5" data-aos="fade-up">
+                  <h4 class="mb-4 intro_header text-warning">Our Vision</h4>  
+                  <p class="intro">
+                      To become the most trusted and accessible partner in both construction supply and telecommunications infrastructure across the Visayas—recognized for quality, affordability, and service—helping shape stronger, better-connected communities through reliable materials and cutting-edge connectivity solutions.
+                  </p>
+
+
+
+              </div>
+              </div>
+            </div>
+
+
             </div>
 
             <!-- Carousel Controls -->
