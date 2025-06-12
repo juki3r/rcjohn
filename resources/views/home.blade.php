@@ -19,7 +19,7 @@
     body {
       margin: 0;
       padding: 0;
-      font-family: 'Open Sans', sans-serif;
+      /* font-family: 'Open Sans', sans-serif; */
     }
 
     .navbar {
@@ -83,7 +83,7 @@
       font-weight: 300;
       font-size: 16px;
       text-align: left;
-      color: rgb(186, 231, 244);
+      color: rgb(212, 243, 252);
     }
 
     @media (max-width: 768px) {
@@ -214,7 +214,7 @@
                     <p class="intro">
                     <strong class="text-warning fw-bold">RC John</strong> is a dynamic and trusted company specializing in construction services, telecommunications solutions, and the supply of high-quality construction materials. With a commitment to excellence, innovation, and integrity, we bring together the strength of infrastructure development and the connectivity of modern telecom systems to deliver comprehensive solutions for today's growing industries.
                     <br /><br />
-                    From residential and commercial building projects to telecom tower installations and network setups, RC John ensures precision, safety, and sustainability at every step. Our construction material division guarantees reliable access to premium-grade products, supporting contractors, developers, and individuals with the tools they need to build with confidence.
+                    From residential and commercial building projects to telecom tower installations and network setups, <strong class="text-warning fw-bold">RC John</strong> ensures precision, safety, and sustainability at every step. Our construction material division guarantees reliable access to premium-grade products, supporting contractors, developers, and individuals with the tools they need to build with confidence.
                     <br /><br />
                     Driven by a passion for progress and a reputation built on trust, RC John is your all-in-one partner for building the future — brick by brick, signal by signal.
                     </p>
