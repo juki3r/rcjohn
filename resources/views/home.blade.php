@@ -83,6 +83,7 @@
       font-weight: 300;
       font-size: 16px;
       text-align: left;
+      color: yellow;
     }
 
     @media (max-width: 768px) {
